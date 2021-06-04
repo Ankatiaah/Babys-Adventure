@@ -1,0 +1,38 @@
+body{
+    background-color:#afe0ef;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.images {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    border:outset gold;
+}
+
+img {
+    height: 400px;
+    width: 700px;
+    display: none;
+    /* Hide all the images on page load */
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+img.default {
+    display: block;
+    /* Show default image on page load */
+}
